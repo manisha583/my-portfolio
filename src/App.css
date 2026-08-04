@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background: rgb(15, 6, 21);
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.app-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.bubble-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+}
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.bubble-1 {
+  width: 70px;
+  height: 70px;
+  top: 25%;
+  left: 25%;
+}
+.bubble-2 {
+  width: 30px;
+  height: 30px;
+  top: 10%;
+  left: 35%;
+}
+.bubble-3 {
+  width: 100px;
+  height: 100px;
+  top: 18%;
+  left: 3%;
+}
+.bubble-4 {
+  width: 40px;
+  height: 40px;
+  top: 27%;
+  left: 45%;
+}
+.bubble-5 {
+  width: 52px;
+  height: 52px;
+  top: 58%;
+  right: 39%;
+}
+.bubble-6 {
+  width: 25px;
+  height: 25px;
+  top: 44%;
+  right: 10%;
+}
+.bubble-7 {
+  width: 60px;
+  height: 60px;
+  top: 52%;
+  left: 20%;
+}
+.bubble-8 {
+  width: 35px;
+  height: 35px;
+  top: 60%;
+  right: 15%;
+}
+.bubble-9 {
+  width: 90px;
+  height: 90px;
+  top: 68%;
+  left: 40%;
+}
+.bubble-10 {
+  width: 45px;
+  height: 45px;
+  top: 76%;
+  left: 10%;
+}
+.bubble-11 {
+  width: 65px;
+  height: 65px;
+  top: 84%;
+  right: 25%;
+}
+.bubble-12 {
+  width: 25px;
+  height: 25px;
+  top: 90%;
+  left: 40%;
+}
+.bubble-13 {
+  width: 50px;
+  height: 50px;
+  top: 95%;
+  right: 8%;
+}
+.bubble-14 {
+  width: 40px;
+  height: 40px;
+  top: 99%;
+  left: 20%;
+}
+.bubble-15 {
+  width: 60px;
+  height: 60px;
+  top: 10%;
+  right: 10%;
+}
+.bubble-16 {
+  width: 60px;
+  height: 60px;
+  top: 20%;
+  right: 30%;
+}
